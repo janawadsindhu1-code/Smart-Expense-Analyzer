@@ -1,33 +1,74 @@
-# Smart Expense Analyzer
+Smart Expense Analyzer
 
-A simple expense tracking web application built using Python, Pandas, and Streamlit.
+Overview
 
-## Features
+Smart Expense Analyzer is a Python-based web application developed using Streamlit and Pandas. It helps users track, organize, and analyze their expenses through interactive tables and visualizations, making personal finance management easier.
 
-- Upload CSV expense files
-- View expense data in a table
-- Calculate total spending
-- Visualize expenses using charts
+Features
 
-## Tech Stack
+- Upload expense data using CSV files
+- View and manage expense records
+- Calculate total spending automatically
+- Analyze spending patterns
+- Interactive data visualization and charts
+- Simple and user-friendly interface
+
+Technologies Used
 
 - Python
-- Pandas
 - Streamlit
+- Pandas
+- CSV Data Processing
 
-## How to Run
+Project Structure
 
-```bash
+- "app.py" – Main Streamlit application
+- "expenses.csv" – Sample expense dataset
+- "requirements.txt" – Project dependencies
+
+Installation
+
+1. Clone the repository:
+
+git clone <repository-url>
+
+2. Install dependencies:
+
+pip install -r requirements.txt
+
+3. Run the application:
+
 streamlit run app.py
-```
 
-## Sample CSV Format
+Sample Expense Categories
 
-```csv
-Category,Amount
-Food,250
-Travel,500
-Shopping,1000
-Food,300
-Bills,800
-```
+- Food
+- Travel
+- Shopping
+- Bills
+- Entertainment
+- Education
+
+Learning Outcomes
+
+- Data analysis using Pandas
+- Web application development with Streamlit
+- CSV file handling
+- Data visualization techniques
+- Financial data management
+
+Future Enhancements
+
+- Monthly expense reports
+- Budget planning tools
+- Expense prediction using Machine Learning
+- User authentication system
+- Export reports to PDF
+
+Author
+
+Sindhu Janawad
+
+B.Sc. Computer Science Student
+
+GitHub: https://github.com/janawadsindhu1-code
